@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #fff;
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #fff;
 }
 
 .d-bloc .a-btn:hover,
@@ -363,12 +363,12 @@ a:hover {
 }
 
 .titre-1 {
-        font-size: 22px;
-        margin: 6px 13%;
+        font-size: 25.6px;
+        margin: 6px 27%;
 }
 
 .titre-2{
-    font-size: 20px;
+    font-size: 25.6px;
     margin: 6px 2%;
 }
 
@@ -390,6 +390,11 @@ small {
 h3{
     max-width:300px;
     margin:auto;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -720,7 +725,7 @@ body{
 }
 
 p {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 
@@ -784,8 +789,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
-    margin: 10px auto;
+    margin: 10px auto 24px auto;
 }
 
 .portfolio-row {
@@ -816,7 +820,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9F3210;
 }
 
 .tc-white {
@@ -824,7 +828,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:#9F3210;
     color: #FFFFFF!important;
     width: 150px;
     margin: 20px auto;
@@ -857,19 +861,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -949,8 +953,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1076,6 +1080,9 @@ h4 {
     .email-contact
     {
         padding-left:10px;
+    }
+    .titre-1 {
+        margin: 6px 2%;
     }
 }
 
