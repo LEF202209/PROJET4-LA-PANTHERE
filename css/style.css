@@ -514,7 +514,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px;
+    font-size: 30px!important;
 }
 
 .icon-lg {
@@ -1079,14 +1079,16 @@ h4 {
     }
     .email-contact
     {
-        padding-left:10px;
+        padding-left: 15px;
+        font-size: 18px;
     }
     .titre-1 {
         margin: 6px 2%;
     }
-    .fa {
-        font-size: 40px;
-        margin: 14px;
+
+    .icon-md {
+        font-size: 40px!important;
+        margin:18px;
     }
 }
 
