@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+    object-fit:cover;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -100,7 +104,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #fff;
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -133,7 +137,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #fff;
+    /* color: rgba(255, 255, 255, .6); */
+    color:#fff;
 }
 
 .d-bloc .a-btn:hover,
@@ -195,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .59);
 }
 
 .d-bloc .panel button:hover,
@@ -363,18 +368,18 @@ a:hover {
 }
 
 .titre-1 {
-        font-size: 25.6px;
-        margin: 6px 27%;
+        font-size: 22px;
+        margin: 6px 13%;
 }
 
 .titre-2{
-    font-size: 25.6px;
+    font-size: 20px;
     margin: 6px 2%;
 }
 
 .citation {
     font-size:22px;
-    margin:0 8%;
+    margin:0 6%;
     font-style:italic;
 }
 
@@ -390,11 +395,6 @@ small {
 h3{
     max-width:300px;
     margin:auto;
-}
-
-.images{
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -514,7 +514,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size:  40px!important;
 }
 
 .icon-lg {
@@ -751,6 +751,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display:flex;
+    justify-content: center;
 }
 
 h2 {
@@ -789,7 +791,8 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin: 10px auto 24px auto;
+    margin-bottom: 24px;
+    margin: 10px auto;
 }
 
 .portfolio-row {
@@ -820,7 +823,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #9F3210;
+    /* background-color: #F3976C; */
+    background-color: #d23b0b;
 }
 
 .tc-white {
@@ -828,9 +832,10 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#9F3210;
+    /* background: #F3976C; */
+    background: #d23b0b;
     color: #FFFFFF!important;
-    width: 150px;
+    width: 220px;
     margin: 20px auto;
 }
 
@@ -848,7 +853,8 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+   color: #d23b0b!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -953,8 +959,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 15px!important;
-        padding-right: 15px!important;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1079,16 +1085,15 @@ h4 {
     }
     .email-contact
     {
-        padding-left: 15px;
-        font-size: 18px;
+        padding-left:10px;
     }
-    .titre-1 {
-        margin: 6px 2%;
-    }
-
     .icon-md {
-        font-size: 40px!important;
-        margin:18px;
+        font-size: 35px!important;
+        margin:15px;
+    }
+    .name
+    {
+        font-weight:bold;
     }
 }
 
